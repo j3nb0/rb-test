@@ -31,7 +31,7 @@ body header#header-main .branding h1 span { color: #CCC; font: 400 18px "Source 
 
 body header#header-main nav.social ul { float: right; margin: 11px 0; overflow: hidden; width: 246px; }
 
-body header#header-main nav.social ul li { -webkit-transition: 1s opacity; transition: 1s opacity; }
+body header#header-main nav.social ul li { transition: 1s opacity; }
 
 body header#header-main nav.social ul li:hover { opacity: 0.7; }
 
@@ -51,11 +51,11 @@ body nav#nav-main .container ul li { float: left; margin-left: 40px; }
 
 body nav#nav-main .container ul li:first-child { margin-left: 0; }
 
-body nav#nav-main .container ul li a { color: #FDFDFD; font: 300 20px "Source Sans Pro", sans-serif; -webkit-transition: 1s color; transition: 1s color; }
+body nav#nav-main .container ul li a { color: #FDFDFD; font: 300 20px "Source Sans Pro", sans-serif; transition: 1s color; }
 
 body nav#nav-main .container ul li a:hover { color: #3FF9FF; }
 
-body nav#nav-main .container button { border: 0; background: none; color: #FDFDFD; cursor: pointer; float: right; font: 300 20px "Source Sans Pro", sans-serif; margin: 21px 0 0 0; position: relative; -webkit-transition: 1s color; transition: 1s color; }
+body nav#nav-main .container button { border: 0; background: none; color: #FDFDFD; cursor: pointer; float: right; font: 300 20px "Source Sans Pro", sans-serif; margin: 21px 0 0 0; position: relative; transition: 1s color; }
 
 body nav#nav-main .container button:hover { color: #3FF9FF; }
 
@@ -91,7 +91,7 @@ body nav#nav-main #form-container form#register-form input *:-ms-input-placehold
 
 body nav#nav-main #form-container form#register-form input *:-ms-input-placeholder:after { content: '*'; color: #3FF9FF; }
 
-body nav#nav-main #form-container form#register-form input[type=submit] { background-color: #3FAFFF; color: #FFFFFF; cursor: pointer; text-indent: 0; width: 130px; -webkit-transition: 1s background-color; transition: 1s background-color; }
+body nav#nav-main #form-container form#register-form input[type=submit] { background-color: #3FAFFF; color: #FFFFFF; cursor: pointer; text-indent: 0; width: 130px; transition: 1s background-color; }
 
 body nav#nav-main #form-container form#register-form input[type=submit]:hover { background-color: #63beff; }
 
