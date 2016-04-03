@@ -55,11 +55,11 @@ body nav#nav-main .container ul li a { color: #FDFDFD; font: 300 20px "Source Sa
 
 body nav#nav-main .container ul li a:hover { color: #3FF9FF; }
 
-body nav#nav-main .container button { border: 0; background: none; color: #FDFDFD; cursor: pointer; float: right; font: 300 20px "Source Sans Pro", sans-serif; margin: 21px 0; position: relative; -webkit-transition: 1s color; transition: 1s color; }
+body nav#nav-main .container button { border: 0; background: none; color: #FDFDFD; cursor: pointer; float: right; font: 300 20px "Source Sans Pro", sans-serif; margin: 21px 0 0 0; position: relative; -webkit-transition: 1s color; transition: 1s color; }
 
 body nav#nav-main .container button:hover { color: #3FF9FF; }
 
-body nav#nav-main .container button i { display: block; left: 0; margin: auto; position: absolute; right: 0; top: 22px; }
+body nav#nav-main .container button i { display: block; margin: -3px auto 0; }
 
 body nav#nav-main #form-container { background-color: #3288c4; box-sizing: border-box; clear: both; display: none; overflow: hidden; padding: 11px 50px 6px; width: 100%; }
 

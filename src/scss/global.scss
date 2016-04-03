@@ -175,7 +175,7 @@ body {
 				cursor: pointer;
 				float: right;
 				font: 300 20px $font-main;
-				margin: 21px 0;
+				margin: 21px 0 0 0;
 				position: relative;
 				transition: 1s color;
 				&:hover {
@@ -183,11 +183,7 @@ body {
 				}
 				i {
 					display: block;
-					left: 0;
-					margin: auto;
-					position: absolute;
-					right: 0;
-					top: 22px;
+					margin: -3px auto 0;
 				}
 			}
 		}
