@@ -9,25 +9,6 @@ $font-main: 'Source Sans Pro', sans-serif;
 // Responsive
 $breakpoint: 960px;
 
-
-@media (min-width: $breakpoint) {
-	.hide-mobile {
-		display: block;
-	}
-	.hide-desktop {
-		display: none!important;
-	}
-}
-
-@media (max-width: $breakpoint) {
-	.hide-mobile {
-		display: none!important;
-	}
-	.hide-desktop {
-		display: block;
-	}
-}
-
 // Colors
 $brand-light-grey : #CCC;
 $brand-light-gray : #CCC;
@@ -97,6 +78,10 @@ body {
 					margin-left: 15px;
 				}
 			}
+		}
+
+		i.mobile-nav-trigger {
+			display: none;
 		}
 
 		nav.social {
@@ -218,11 +203,11 @@ body {
 				}
 				input {
 					background-color: $brand-dark-blue;
+					box-sizing: border-box;
 					color: $brand-blue;
 					height: 44px;
 					font: 300 16px $font-main;
-					padding: 0;
-					text-indent: 20px;
+					padding: 0 0 0 20px;
 					width: 100%;
 
 					// Multi-colored placeholder text
@@ -337,6 +322,9 @@ body {
 				float: left;
 				font-size: 28px;
 				margin: 14px 0;
+			}
+			i.mobile-nav-trigger {
+				display: block;
 			}
 			nav.social {
 				float: none;

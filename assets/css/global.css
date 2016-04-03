@@ -1,10 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
-@media (min-width: 960px) { .hide-mobile { display: block; }
-  .hide-desktop { display: none !important; } }
-
-@media (max-width: 960px) { .hide-mobile { display: none !important; }
-  .hide-desktop { display: block; } }
-
 html, body { margin: 0 auto; max-width: 1280px; min-height: 100%; padding: 0; }
 
 section, header { width: 100%; box-sizing: border-box; }
@@ -29,9 +23,11 @@ body header#header-main .branding h1 { color: #3FAFFF; font: 600 35px "Source Sa
 
 body header#header-main .branding h1 span { color: #CCC; font: 400 18px "Source Sans Pro", sans-serif; margin-left: 15px; }
 
+body header#header-main i.mobile-nav-trigger { display: none; }
+
 body header#header-main nav.social ul { float: right; margin: 11px 0; overflow: hidden; width: 246px; }
 
-body header#header-main nav.social ul li { transition: 1s opacity; }
+body header#header-main nav.social ul li { -webkit-transition: 1s opacity; transition: 1s opacity; }
 
 body header#header-main nav.social ul li:hover { opacity: 0.7; }
 
@@ -51,11 +47,11 @@ body nav#nav-main .container ul li { float: left; margin-left: 40px; }
 
 body nav#nav-main .container ul li:first-child { margin-left: 0; }
 
-body nav#nav-main .container ul li a { color: #FDFDFD; font: 300 20px "Source Sans Pro", sans-serif; transition: 1s color; }
+body nav#nav-main .container ul li a { color: #FDFDFD; font: 300 20px "Source Sans Pro", sans-serif; -webkit-transition: 1s color; transition: 1s color; }
 
 body nav#nav-main .container ul li a:hover { color: #3FF9FF; }
 
-body nav#nav-main .container button { border: 0; background: none; color: #FDFDFD; cursor: pointer; float: right; font: 300 20px "Source Sans Pro", sans-serif; margin: 21px 0 0 0; position: relative; transition: 1s color; }
+body nav#nav-main .container button { border: 0; background: none; color: #FDFDFD; cursor: pointer; float: right; font: 300 20px "Source Sans Pro", sans-serif; margin: 21px 0 0 0; position: relative; -webkit-transition: 1s color; transition: 1s color; }
 
 body nav#nav-main .container button:hover { color: #3FF9FF; }
 
@@ -73,7 +69,7 @@ body nav#nav-main #form-container form#register-form .input-container { float: l
 
 body nav#nav-main #form-container form#register-form .input-container span.error { display: none; }
 
-body nav#nav-main #form-container form#register-form input { background-color: #2B74A8; color: #3FAFFF; height: 44px; font: 300 16px "Source Sans Pro", sans-serif; padding: 0; text-indent: 20px; width: 100%; }
+body nav#nav-main #form-container form#register-form input { background-color: #2B74A8; box-sizing: border-box; color: #3FAFFF; height: 44px; font: 300 16px "Source Sans Pro", sans-serif; padding: 0 0 0 20px; width: 100%; }
 
 body nav#nav-main #form-container form#register-form input::-webkit-input-placeholder { color: #3FAFFF; }
 
@@ -91,7 +87,7 @@ body nav#nav-main #form-container form#register-form input *:-ms-input-placehold
 
 body nav#nav-main #form-container form#register-form input *:-ms-input-placeholder:after { content: '*'; color: #3FF9FF; }
 
-body nav#nav-main #form-container form#register-form input[type=submit] { background-color: #3FAFFF; color: #FFFFFF; cursor: pointer; text-indent: 0; width: 130px; transition: 1s background-color; }
+body nav#nav-main #form-container form#register-form input[type=submit] { background-color: #3FAFFF; color: #FFFFFF; cursor: pointer; text-indent: 0; width: 130px; -webkit-transition: 1s background-color; transition: 1s background-color; }
 
 body nav#nav-main #form-container form#register-form input[type=submit]:hover { background-color: #63beff; }
 
@@ -115,6 +111,7 @@ body section#main h3 { font: 300 16px "Source Sans Pro", sans-serif; margin-top:
   body header#header-main .branding span.brand, body header#header-main .branding h1 { text-align: center; }
   body header#header-main .container { margin: auto; max-width: 320px; overflow: hidden; padding: 0 30px; }
   body header#header-main i.fa { color: #3FAFFF; cursor: pointer; float: left; font-size: 28px; margin: 14px 0; }
+  body header#header-main i.mobile-nav-trigger { display: block; }
   body header#header-main nav.social { float: none; }
   body header#header-main nav.social ul { width: 166px; }
   body header#header-main nav.social ul li a { border: 4px solid #3FAFFF; height: 34px; margin-left: 10px; width: 34px; }
