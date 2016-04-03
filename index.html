@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recovery Brands Front End Test</title>
+  <link rel="icon" href="assets/img/favicon.ico?v=1.1"> 
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+	<body>
+
+		<header id="header-main">
+
+			<div class="branding">
+				<span class="brand">Recovery Brands</span>
+				<h1>microbuild : toggle simple form <span>v1</span></h1>
+			</div>
+
+			<div class="container">
+				<i class="fa fa-bars hide-desktop mobile-nav-trigger"></i>
+
+				<nav class="social">
+					<ul>
+						<li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com"><i class="fa fa-github"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+			
+		</header>
+
+		<nav id="nav-main">
+
+			<div class="container">
+				<ul>
+					<li><a href="#">Fundamentals</a></li>
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">Stylesheets</a></li>
+					<li><a href="#">Javascript</a></li>
+					<li><a href="#">PHP</a></li>
+					<li><a href="#">Tutorials</a></li>
+				</ul>
+
+				<button id="register-button">Register Account <i class="fa fa-caret-down"></i></button>
+
+			</div>
+
+			<div id="form-container">
+				<span class="key">* required</span>
+
+				<form id="register-form" novalidate>
+					<div class="input-container">
+						<input type="text" name="name" placeholder="Full Name ">
+						<span id="name-error" class="error">Your name is required</span>
+					</div>
+					<div class="input-container">
+						<input type="email" name="email" placeholder="Email ">
+						<span id="email-error" class="error">A valid email is required. Example: name@domain.com</span>
+					</div>
+					<div class="input-container">
+						<input type="num" name="phone" placeholder="Phone Number ">
+						<span id="phone-error"  class="error">A valid phone number is required. Example: 555-555-5555</span>
+					</div>
+					<input type="submit" value="Submit">
+				</form>
+
+				<p class="thank-you">Thank you for submitting.</p>
+
+			</div>
+
+		</nav>
+
+		<section id="main">
+
+			<h2>usage</h2>
+			<h3>A utility element for simple data capture</h3>
+
+		</section>
+		
+	</body>
+
+	<script src="src/js/scripts.js"></script>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "rb-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "watches": {
+    "build-css": "src/scss/**"
+  },
+  "scripts": {
+    "build-css": "node-sass --output-style compact src/scss/global.scss -o assets/css/",
+    "postbuild-css": "postcss --use autoprefixer -b 'ie 8', 'ie 9', 'last 2 versions' assets/css/global.css -d assets/css/",
+    "watch": "rerun-script"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.19",
+    "postcss-cli": "^2.5.1",
+    "rerun-script": "^0.6.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
