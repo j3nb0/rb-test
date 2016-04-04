@@ -26,6 +26,7 @@ html, body {
 	margin: 0 auto;
 	max-width: 1280px;
 	min-height: 100%;
+	overflow: hidden;
 	padding: 0;
 }
 
@@ -247,6 +248,7 @@ body {
 					background-color: $brand-blue;
 					color: #FFFFFF;
 					cursor: pointer;
+					padding: 0;
 					text-indent: 0;
 					width: 130px;
 					transition: 1s background-color;
@@ -286,6 +288,16 @@ body {
 			font: 300 16px $font-main;
 			margin-top: 10px;
 		}
+	}
+
+	#taco {
+		background: url('../img/taco.png');
+		position: absolute;
+		bottom: 0;
+		display: none;
+		width: 512px;
+		height: 512px;
+		right: -999px;
 	}
 
 	@media (max-width: $breakpoint) {

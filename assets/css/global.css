@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
-html, body { margin: 0 auto; max-width: 1280px; min-height: 100%; padding: 0; }
+html, body { margin: 0 auto; max-width: 1280px; min-height: 100%; overflow: hidden; padding: 0; }
 
 section, header { width: 100%; box-sizing: border-box; }
 
@@ -87,7 +87,7 @@ body nav#nav-main #form-container form#register-form input *:-ms-input-placehold
 
 body nav#nav-main #form-container form#register-form input *:-ms-input-placeholder:after { content: '*'; color: #3FF9FF; }
 
-body nav#nav-main #form-container form#register-form input[type=submit] { background-color: #3FAFFF; color: #FFFFFF; cursor: pointer; text-indent: 0; width: 130px; -webkit-transition: 1s background-color; transition: 1s background-color; }
+body nav#nav-main #form-container form#register-form input[type=submit] { background-color: #3FAFFF; color: #FFFFFF; cursor: pointer; padding: 0; text-indent: 0; width: 130px; -webkit-transition: 1s background-color; transition: 1s background-color; }
 
 body nav#nav-main #form-container form#register-form input[type=submit]:hover { background-color: #63beff; }
 
@@ -102,6 +102,8 @@ body section#main h2, body section#main h3 { color: #777; }
 body section#main h2 { margin: 0; font: 400 24px "Source Sans Pro", sans-serif; }
 
 body section#main h3 { font: 300 16px "Source Sans Pro", sans-serif; margin-top: 10px; }
+
+body #taco { background: url("../img/taco.png"); position: absolute; bottom: 0; display: none; width: 512px; height: 512px; right: -999px; }
 
 @media (max-width: 960px) { body header#header-main { padding: 50px 0 20px; }
   body header#header-main .branding { float: none; margin: 0 auto 15px; }
