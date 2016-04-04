@@ -51,6 +51,8 @@ button:focus, input:focus {
 }
 
 input {
+	appearance: none;
+	border-radius: 0;
 	border: none;
 }
 
